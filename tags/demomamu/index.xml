@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demomamu on Blog Demo Site</title>
+    <link>/tags/demomamu/</link>
+    <description>Blog Demo Site (Demomamu)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+      
+        <managingEditor>edu.sivakarthik@gmail.com
+          
+            (Sivakarthik)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/tags/demomamu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo Mamu - for my boy rishi</title>
+      <link>/posts/demo-for-rishi/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <author>edu.sivakarthik@gmail.com (Sivakarthik)</author>
+      <guid>/posts/demo-for-rishi/</guid>
+      <description>&lt;p&gt;10 aprm 11 da , rishi ku munna yevan daaaaaawww!!!&lt;/p&gt;
+&lt;p&gt;![[WIN_20231021_10_19_03_Pro.jpg]]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
