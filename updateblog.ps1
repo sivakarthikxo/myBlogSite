@@ -123,7 +123,7 @@ try {
     exit 1
 }
 
-# Step 8: Push the public folder to the hostinger branch using subtree split and force push
+# Step 8: Push the public folder to the deploy branch using subtree split and force push
 Write-Host "Deploying to GitHub Vercel..."
 
 # Check if the temporary branch exists and delete it
@@ -140,7 +140,7 @@ try {
     exit 1
 }
 
-# Push to hostinger branch with force
+# Push to deploy branch with force
 try {
     git push origin deploy:deploy --force
 } catch {
