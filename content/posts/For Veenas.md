@@ -7,5 +7,5 @@ tags:
   - blog
 ---
 
-Eppurrah Veenas mass ah!
-[[Pasted image 20241210120706.png]]
+Eppurrah Veenas mass ah!  
+![Image Description](/images/Pasted%20image%2020241210120706.png)
