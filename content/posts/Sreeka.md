@@ -6,5 +6,6 @@ tags:
   - demo
   - blog
 ---
-
 Ippo puriyutha....
+
+[[Pasted image 20241210122629.jpg]]
