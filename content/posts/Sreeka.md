@@ -8,4 +8,4 @@ tags:
 ---
 Ippo puriyutha....
 
-[[Pasted image 20241210122629.jpg]]
+![[Pasted image 20241210122629.jpg]]
