@@ -19,10 +19,20 @@
     
 
     
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mega Script for checking</title>
+      <link>/posts/mega-script/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <author>edu.sivakarthik@gmail.com (Sivakarthik)</author>
+      <guid>/posts/mega-script/</guid>
+      <description>&lt;p&gt;![[Screenshot 2024-08-06 094429.png]]&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Demo blog</title>

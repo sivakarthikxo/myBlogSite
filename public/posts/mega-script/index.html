@@ -10,15 +10,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Tags - Blog Demo Site</title>
+<title>Mega Script for checking - Blog Demo Site</title>
 
-<meta name="description" content="Trying out this simple minimalist theme for Hugo blog engine.">
-
-
+<meta name="description" content="![[Screenshot 2024-08-06 094429.png]]">
 
 
 
-<link rel="alternate" type="application/rss+xml" href="/tags/index.xml" title="Blog Demo Site" />
+
+
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="/favicon.png">
 
@@ -416,30 +415,173 @@
         </header>
         <main id="main" tabindex="-1">
             
-    <div class="index-content">
-        
+<article class="post h-entry">
+    <div class="post-header">
+        <header>
+            
+            <h1 class="p-name post-title">
+                Mega Script for checking
+            </h1>
+
+            
+            <p class="post-meta">
+                <time datetime="2024-12-10">December 10, 2024</time>
+            </p>
+
+            
+            
+            <p class="post-tags">
+                Tags: 
+                
+                
+                <a href="/tags/demo">demo</a>, 
+                
+                <a href="/tags/blog">blog</a>, 
+                
+                
+            </p>
+            
+        </header>
     </div>
 
-    <h1>Tags</h1>
-    <ul class="terms">
+    
+    
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+
+    
+    <div class="content e-content">
+        <p>![[Screenshot 2024-08-06 094429.png]]</p>
+
+    </div>
+</article>
+
+
+
+
+    
+
+
+
+    
+    
+    <h3 class="read-next-title noselect">Read Next</h3>
+    <ul class="read-next-posts noselect">
         
-            
-            
-                <li>
-                    <a href="/tags/blog/">Blog</a>
-                    (2)
-                </li>
-            
-        
-            
-            
-                <li>
-                    <a href="/tags/demo/">Demo</a>
-                    (2)
-                </li>
-            
+        <li><a href="/posts/first-post/">Demo blog</a></li>
         
     </ul>
+    
+
+
+
+
+    
+    
+    
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/posts/first-post/">Demo blog</a>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+            
+
+<script>
+        function detectCurrentScheme2() {
+                const defaultTheme = "auto";
+                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+                        return localStorage.getItem("user-color-scheme");
+                }
+                if (defaultTheme === "dark" || defaultTheme === "light") {
+                        return defaultTheme;
+                }
+                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        let giscusTheme = detectCurrentScheme2();
+        let giscusAttributes = {
+                src: "https://giscus.app/client.js",
+                "data-repo": "Junyi-99\/hugo-theme-anubis2",
+                "data-repo-id": "R_kgDOLEp76Q",
+                "data-category": "Announcements",
+                "data-category-id": "DIC_kwDOLEp76c4CcbPS",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": giscusTheme,
+                "data-lang": "en",
+                crossorigin: "anonymous",
+                lazyload: "false",
+                async: true,
+        };
+        let main = document.querySelector("main");
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        main.appendChild(giscusScript);
+</script>
+
+
+
+
+
+
+
+
+
+
 
 
         </main>
