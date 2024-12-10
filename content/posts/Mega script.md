@@ -6,5 +6,4 @@ tags:
   - demo
   - blog
 ---
-
-![[WIN_20231021_10_19_03_Pro.jpg]]
+![[wp5939575.png]]
