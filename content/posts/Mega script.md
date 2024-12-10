@@ -6,4 +6,4 @@ tags:
   - demo
   - blog
 ---
-![[wp5939575.png]]
+![Image Description](/images/wp5939575.png)
