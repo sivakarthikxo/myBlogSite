@@ -7,5 +7,4 @@ tags:
   - blog
 ---
 
-
-!![Image Description](/images/Screenshot%202024-08-06%20094429.png)
+![[WIN_20231021_10_19_03_Pro.jpg]]
