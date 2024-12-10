@@ -8,4 +8,4 @@ tags:
 ---
 Ippo puriyutha....
 
-![[nerd cat.png]]
+!![Image Description](/images/nerd%20cat.png)
