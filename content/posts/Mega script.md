@@ -8,4 +8,4 @@ tags:
 ---
 
 
-![[Screenshot 2024-08-06 094429.png]]
+!![Image Description](/images/Screenshot%202024-08-06%20094429.png)

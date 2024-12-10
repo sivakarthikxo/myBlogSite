@@ -115,26 +115,26 @@ if (-not $hasStagedChanges) {
 }
 
 # Step 7: Push all changes to the main branch
-Write-Host "Deploying to GitHub Master..."
+Write-Host "Deploying to GitHub Main..."
 try {
-    git push origin master
+    git push origin main
 } catch {
-    Write-Error "Failed to push to Master branch."
+    Write-Error "Failed to push to Main branch."
     exit 1
 }
 
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
-Write-Host "Deploying to GitHub Hostinger..."
+Write-Host "Deploying to GitHub Vercel..."
 
 # Check if the temporary branch exists and delete it
-$branchExists = git branch --list "hostinger-deploy"
+$branchExists = git branch --list "deploy"
 if ($branchExists) {
-    git branch -D hostinger-deploy
+    git branch -D deploy
 }
 
 # Perform subtree split
 try {
-    git subtree split --prefix public -b hostinger-deploy
+    git subtree split --prefix public -b deploy
 } catch {
     Write-Error "Subtree split failed."
     exit 1
@@ -142,14 +142,14 @@ try {
 
 # Push to hostinger branch with force
 try {
-    git push origin hostinger-deploy:hostinger --force
+    git push origin deploy:deploy --force
 } catch {
-    Write-Error "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
+    Write-Error "Failed to push to deploy branch."
+    git branch -D deploy
     exit 1
 }
 
 # Delete the temporary branch
-git branch -D hostinger-deploy
+git branch -D deploy
 
 Write-Host "All done! Site synced, processed, committed, built, and deployed."
